@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&_v=20221008023844"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css?_v=20221008023844">
+</head>
+<body>
+  
+<aside class="aside">
+  <div class="aside__logo">
+    <picture><source srcset="img/logo.webp" type="image/webp"><img class="aside__img" src="img/logo.png" alt="logo" ></picture>
+    <p class="aside__text">v.01</p>
+  </div>
+<ul class="aside__list">
+  <li class="aside__items">
+    <div class="aside__item">
+    <picture><source srcset="img/Dashboard.webp" type="image/webp"><img class="aside__items-logo" src="img/Dashboard.png" alt="Dashboard"></picture>
+    Dashboard</div>
+    
+    <picture><source srcset="img/tickactive.webp" type="image/webp"><img class="aside__items-tickactive" src="img/tickactive.png" alt="tickactive"></picture>
+  </li>
+  <li class="aside__items">
+    <div class="aside__item">
+    <picture><source srcset="img/Product.webp" type="image/webp"><img class="aside__items-logo" src="img/Product.png" alt="Product" ></picture>
+    Product
+
+    </div>
+    <picture><source srcset="img/tick.webp" type="image/webp"><img class="aside__items-tick" src="img/tick.png" alt="tick" ></picture>
+  </li>
+  <li class="aside__items aside__items--active">
+    <div class="aside__item">
+    <picture><source srcset="img/Customers.webp" type="image/webp"><img class="aside__items-logo " src="img/Customers.png" alt="Customers"></picture>
+    Customers
+    </div>
+    <picture><source srcset="img/tick.webp" type="image/webp"><img class="aside__items-tick" src="img/tick.png" alt="tick"></picture>
+    <picture><source srcset="img/tickactive.webp" type="image/webp"><img class="aside__items-tickactive" src="img/tickactive.png" alt="tickactive"></picture>
+  </li>
+  <li class="aside__items">
+    <div class="aside__item">
+      <picture><source srcset="img/Income.webp" type="image/webp"><img class="aside__items-logo" src="img/Income.png" alt="Income"></picture>
+      Income
+    </div>
+    
+    <picture><source srcset="img/tick.webp" type="image/webp"><img class="aside__items-tick" src="img/tick.png" alt="tick"></picture>
+  </li>
+  <li class="aside__items">
+    <div class="aside__item">
+      <picture><source srcset="img/Promote.webp" type="image/webp"><img class="aside__items-logo" src="img/Promote.png" alt="Promote"></picture>
+      Promote
+    </div>
+    
+    <picture><source srcset="img/tick.webp" type="image/webp"><img class="aside__items-tick" src="img/tick.png" alt="tick"></picture>
+  </li>
+  <li class="aside__items">
+    <div class="aside__item">
+    <picture><source srcset="img/Help.webp" type="image/webp"><img class="aside__items-logo" src="img/Help.png" alt="Help"></picture>
+    Help
+    </div>
+    <picture><source srcset="img/tick.webp" type="image/webp"><img class="aside__items-tick" src="img/tick.png" alt="tick"></picture>
+  </li>
+
+</ul>
+<div class="aside__author">
+  <picture><source srcset="img/ava.webp" type="image/webp"><img class="aside__author-ava" src="img/ava.png" alt="ava" ></picture>
+  <div class="aside__author-info">
+    <p class="aside__author-name">Evano</p>
+    <p class="aside__author-profession">Project Manager</p>
+  </div>
+</div>
+</aside>
+<div class="main">
+  <div class="main__hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <p class="main__greetings">
+    Hello Evano &#128075;,
+  </p>
+  <div class="main__customers">
+   <h3 class="main__customers-title" >All Customers</h3>
+   <div class="main__customers-search">
+    <p class="main__customers-text">Active Members</p>
+    <form class="main__search">
+      <input class="main__search-input" type="text" placeholder="Search">
+      <button class="main__search-btn" type="submit">
+        <picture><source srcset="img/Shape.webp" type="image/webp"><img class="main__search-shape" src="img/Shape.png" alt="search"></picture>
+      </button>
+    </form>
+    
+   </div>
+  <table class="main__table" >
+  
+    <tr class="main__tr main__tr-title" >
+      <td class="main__td">Customer Name</td>
+      <td class="main__td">Company</td>
+      <td class="main__td">Phone Number</td>
+      <td class="main__td">Email</td>
+      <td class="main__td">Country</td>
+      <td class="main__td">Status</td>
+    </tr>
+    
+    <tr class="main__tr">
+      <td class="main__td">Jane Cooper</td>
+      <td class="main__td">Microsoft</td>
+      <td class="main__td">(225) 555-0118</td>
+      <td class="main__td">jane@microsoft.com</td>
+      <td class="main__td">United States</td>
+      <td class="main__td"> <button class="main__btn-active" >Active</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Floyd Miles</td>
+      <td class="main__td">Yahoo</td>
+      <td class="main__td">(205) 555-0100</td>
+      <td class="main__td">floyd@yahoo.com</td>
+      <td class="main__td">Kiribati</td>
+      <td class="main__td"> <button class="main__btn-inactive">Inactive</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Ronald Richards</td>
+      <td class="main__td">Adobe</td>
+      <td class="main__td">(302) 555-0107</td>
+      <td class="main__td">ronald@adobe.com</td>
+      <td class="main__td">Israel</td>
+      <td class="main__td"> <button class="main__btn-inactive">Inactive</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Marvin McKinneyr</td>
+      <td class="main__td">Tesla</td>
+      <td class="main__td">(252) 555-0126</td>
+      <td class="main__td">marvin@tesla.com</td>
+      <td class="main__td">Iran</td>
+      <td class="main__td"> <button class="main__btn-active">Active</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Jerome Bell</td>
+      <td class="main__td">Google</td>
+      <td class="main__td">(629) 555-0129</td>
+      <td class="main__td">jerome@google.com</td>
+      <td class="main__td">Réunion</td>
+      <td class="main__td"> <button class="main__btn-active">Active</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Kathryn Murphy</td>
+      <td class="main__td">Microsoft</td>
+      <td class="main__td">(406) 555-0120</td>
+      <td class="main__td">kathryn@microsoft.com</td>
+      <td class="main__td">Curaçao</td>
+      <td class="main__td"> <button class="main__btn-active">Active</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Jacob Jones</td>
+      <td class="main__td">Yahoo</td>
+      <td class="main__td">(208) 555-0112</td>
+      <td class="main__td">jacob@yahoo.com</td>
+      <td class="main__td">Brazil</td>
+      <td class="main__td"> <button class="main__btn-active">Active</button> </td>
+    </tr>
+    <tr class="main__tr">
+      <td class="main__td">Kristin Watson</td>
+      <td class="main__td">Facebook</td>
+      <td class="main__td">(704) 555-0127</td>
+      <td class="main__td">kristin@facebook.com</td>
+      <td class="main__td">Åland Islands</td>
+      <td class="main__td"> <button class="main__btn-inactive">Inactive</button> </td>
+    </tr>
+    
+    
+  </table>
+  <div class="main__navigation">
+    <div class="main__navigation-text">Showing data 1 to 8 of 256K entries</div>
+    <div class="main__navigation-btns">
+      <button class="main__navigation-btn" ><</button>
+      <button class="main__navigation-btn">1</button>
+      <button class="main__navigation-btn">2</button>
+      <button class="main__navigation-btn">3</button>
+      <button class="main__navigation-btn">4</button>
+      <p class="main__navigation-ellipsis" >...</p>
+      <button class="main__navigation-btn">40</button>
+      <button class="main__navigation-btn">></button>
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+
+ 
+
+ 
+
+
+
+</body>
+  <script src="js/app.min.js?_v=20221008023844"></script>
+</html>
